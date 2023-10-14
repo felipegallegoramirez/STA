@@ -4,30 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-
     <header>
-        <nav>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <div>
+            <nav>
+                <div class="nav__left">
+                    <img src="../sources/image.png" alt="">
                 </div>
-                <div>
-                    <ul>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href=""></a></li>
-                    </ul>
+                <div class="nav__right">
+                    <div class="nav__contact">
+                        <div class="contact__card">
+                            <img src="../sources/image.png" alt="">
+                            <div class="contact__card__text">
+                                <p>informacion</p>
+                                <p>informacion</p>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <img src="../sources/image.png" alt="">
+                            <div class="contact__card__text">
+                                <p>informacion</p>
+                                <p>informacion</p>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <img src="../sources/image.png" alt="">
+                            <div class="contact__card__text">
+                                <p>informacion</p>
+                                <p>informacion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__nav">
+                        <ul>
+                            <li><a href="">Nosotros</a></li>
+                            <li><a href="">Servicios</a></li>
+                            <li><a href="">Tienda</a></li>
+                            <li><a href="">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
     </header>
 
     <!--! Comienza el codigo !-->
@@ -36,42 +55,72 @@
         <h2>Contacto</h2>
     </section>
 
-    <section class="services">
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
+    <section class="invite">
+        <div>
+            <p>Habla con uno de nuestros expertos</p>
+            <button class="button-1">Contactanos</button>
         </div>
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
+    </section>
+
+    <section class="moreinfo">
+        <div>
+            <h2>Mas informacion</h2>
+            <div class="moreinfo__grid">
+                <div class="moreinfo__card">
+                    <img src="/sources/truck.jpg" alt="">
+                    <div>
+                        <h3>Informacion</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quod deleniti quae</p>
+                        <p class="moreinfo__card--action">>>Leer más</p>
+                    </div>
+                </div>
+                <div class="moreinfo__card">
+                    <img src="/sources/truck.jpg" alt="">
+                    <div>
+                        <h3>Informacion</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quod deleniti quae</p>
+                        <p class="moreinfo__card--action">>>Leer más</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
+    </section>
+    <section class="contact">
+        <h2>Contactanos</h2>
+        <p>Luego nos pondremos en contacto contigo</p>
+        <div class="contact__grid">
+            <input name="name" type="text"  placeholder="Nombre">
+            <input name="email" type="text" placeholder="Correo">
+            <input name="phone" type="text" placeholder="Celular">
         </div>
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
-        </div>
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
-        </div>
-        <div class="services__card">
-            <img src="" alt="">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, beatae facere soluta expedita debitis temporibus alias sint. Unde corporis earum sequi beatae necessitatibus quam ut quis, nam dolore eligendi autem?</p>
-            <button>Mas detalles</button>
+    </section>
+
+    <section class="info">
+        <div class="info__img"><img src="../sources/truck.jpg" alt=""></div>
+        <div class="info__text">
+            <h2>Contacto</h2>
+            <div class="info_card">
+                <img src="../sources/truck.jpg" alt="">
+                <div>
+                    <p>Direccion</p>
+                    <p>asdasd</p>
+                </div>
+            </div>
+            <div class="info_card">
+                <img src="../sources/truck.jpg" alt="">
+                <div>
+                    <p>Celular</p>
+                    <p>asdasd</p>
+                </div>
+            </div>
+            <div class="info_card">
+                <img src="../sources/truck.jpg" alt="">
+                <div>
+                    <p>Correo</p>
+                    <p>asdasd</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -79,36 +128,36 @@
     <!--! Termina el codigo !-->
 
     <footer>
-        <div>
-            <img src="" alt="">
-            <p></p>
+        <div class="footer__left">
+            <img src="../sources/image.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio dolor itaque dolore quas dolorum, earum quo aut tempora possimus ab ipsam, odit sequi est non quos quidem, illum molestiae.</p>
             <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <p>Siguenos en:</p>
+                <img src="../sources/truck.jpg" alt="">
+                <img src="../sources/truck.jpg" alt="">
+                <img src="./sources/truck.jpg" alt="">
             </div>
         </div>
 
-        <div>
+        <div class="footer__center">
             <h3>Servicios</h3>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="">>> Servicio 1</a></li>
+                <li><a href="">>> Servicio 2</a></li>
+                <li><a href="">>> Servicio 3</a></li>
+                <li><a href="">>> Servicio 4</a></li>
+                <li><a href="">>> Servicio 5</a></li>
             </ul>
         </div>
-
-        <div>
+        <div class="footer__right">
             <h3>Contacto</h3>
             <div>
-                <p>Celular</p>
+                <p>Celular:</p>
                 <p>123123</p>
-                <p>Correo</p>
+                <p>Correo:</p>
                 <p>dasdasdas</p>
-                <p>Direccion</p>
-                <p></p>
+                <p>Direccion:</p>
+                <p>asdasdas</p>
             </div>
 
         </div>
@@ -116,9 +165,12 @@
     </footer>
 
     <div class="credits">
-        &#169 Derechos reservados 2024 By STA - EZCO
+        &#169 Derechos reservados 2024 By STA - EzCo
     </div>
-
-    
 </body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </html>
