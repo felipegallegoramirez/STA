@@ -163,6 +163,7 @@ button:active{
 .stats{
   padding: 40px;
   background-image: url(../sources/truck.jpg);
+  background-size: cover;
   display: flex;
   justify-content: space-around;
 }
