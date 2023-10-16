@@ -258,3 +258,30 @@ footer p, footer a{
 body{
   font-family: 'Open Sans', sans-serif;
  }
+
+ @media screen and (max-width: 1200px) {
+  nav{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  footer>div{
+    padding: 0px;
+    width: 100%;
+  }
+  .footer__left>img{
+    width: 100%;
+  }
+  .services{
+    padding: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+ }
