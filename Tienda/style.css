@@ -410,3 +410,71 @@ footer p, footer a{
 body{
   font-family: 'Open Sans', sans-serif;
  }
+
+ @media screen and (max-width: 1200px) {
+  nav{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  footer>div{
+    padding: 0px;
+    width: 100%;
+  }
+  .footer__left>img{
+    width: 100%;
+  }
+  .shop__basic{
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .shop__basic>input{
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  
+  .shop__advance{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+    margin: 0px;
+  }
+  
+  .shop__advance>div{
+    width: 100%;
+  }
+  .shop__advance>.products__grid{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .shop__advance>.products__grid>div{
+    margin: auto;
+  }
+
+  .products__card--mini{
+    display: flex;
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  .invite>div{
+    flex-direction: column;
+  }
+
+  button{
+    margin: 10px 0px;
+    border: 2px solid white !important;
+  }
+  
+ }
