@@ -197,15 +197,16 @@ button:active{
   padding: 40px;
   background-image: url(../sources/truck.jpg);
   background-size: cover;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
 }
 
 .stats__card{
   border: 3px solid var(--blue);
   width: 300px;
-
 }
+
 
 .stats__card *{
  margin: 0px;
@@ -384,4 +385,68 @@ footer p, footer a{
 
 body{
   font-family: 'Open Sans', sans-serif;
+ }
+
+ @media screen and (max-width: 1200px) {
+  nav{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  .stats{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 0px;
+  }
+
+
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  footer>div{
+    padding: 0px;
+    width: 100%;
+  }
+  .footer__left>img{
+    width: 100%;
+  }
+  .about{
+    padding: 20px;
+    flex-direction: column;
+  }
+  .about>div{
+    width: 100%;
+  }
+  .chooseus{
+    padding: 20px;
+  }
+  .chooseus__data{
+
+    flex-direction: column;
+  }
+  .chooseus__data>div{
+    padding: 0px;
+    width: 100%;
+  }
+
+  .chooseus__card>img{
+    margin: 60px 30px;
+    width: 50px;
+    object-fit: cover;
+    height: 50px;
+   }
+   
+   .chooseus__card>div{
+     width: calc(100% - 76px);
+     height: 172px;
+   }
+
+   .chooseus__data>.chooseus__selector{
+    width: 100%;
+  }
+
  }

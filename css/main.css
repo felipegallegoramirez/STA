@@ -172,7 +172,6 @@ button:active{
 .stats__card{
   border: 3px solid var(--blue);
   width: 300px;
-
 }
 
 .stats__card *{
