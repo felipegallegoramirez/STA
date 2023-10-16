@@ -176,7 +176,6 @@ button:active{
 /* Slideshow container */
 .slideshow-container {
   width: 700px;
-  height: 710px;
   position: relative;
   margin: auto;
 }
@@ -378,3 +377,47 @@ footer p, footer a{
 body{
   font-family: 'Open Sans', sans-serif;
  }
+
+ @media screen and (max-width: 1200px) {
+  nav{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+
+  footer{
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  footer>div{
+    padding: 0px;
+    width: 100%;
+  }
+  .footer__left>img{
+    width: 100%;
+  }
+
+  .product{
+    padding: 20px;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .slideshow-container{
+    width: 100%;
+    height: 8;
+  }
+
+  .slideshow-container>div>img{
+    max-width: 100%;
+  }
+  .product__text-cart{
+    flex-direction: column;
+  }
+  .product__text-cart input{
+    padding: 10px 0px;
+  }
+}
