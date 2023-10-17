@@ -42,4 +42,15 @@ function showSlidesA() {
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlidesA, 4000); // Change image every 2 seconds
-  } 
+  }
+
+var x =document.getElementById("nav")
+x.addEventListener("click", nav)
+
+function nav(){
+  if(x.classList.contains("ver")){
+    x.classList.remove("ver")
+  }else{
+    x.classList.add("ver")
+  }
+}

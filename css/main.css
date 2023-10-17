@@ -56,7 +56,7 @@ nav {
   background-color: var(--white);
   clip-path: polygon(100% 0, 100% 110px, 82% 100%, 0 100%, 0 0);
 }
-.nav__left > img {
+.nav__left  img {
   height: 100px;
 }
 .nav__right {
@@ -794,7 +794,27 @@ footer p, footer a{
 }
 
 
- body{
+ .nav-res{
+  visibility: hidden;
+  width: 0px;
+  overflow: hidden;
+  height: 0px;
+}
+.nav-res{
+  text-align: center;
+  background-color: var(--blue);
+  font-size: 30px;
+  position: absolute;
+  z-index: 2000;
+}
+
+.nav-res *{
+  margin: 20px 0px;
+  padding: 0px;
+  color: var(--white);
+}
+
+body{
   font-family: 'Open Sans', sans-serif;
  }
 
@@ -963,7 +983,17 @@ footer p, footer a{
   .footer__left>img{
     width: 100%;
   }
+  .nav-res{
+    visibility: visible;
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.ver{
+  height:  300px;
+}
 
 
-
- }
+}

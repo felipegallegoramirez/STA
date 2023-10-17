@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,46 +8,56 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
 </head>
+
 <body>
     <header>
-            <nav>
-                <div class="nav__left">
-                    <img src="./sources/image.png" alt="">
-                </div>
-                <div class="nav__right">
-                    <div class="nav__contact">
-                        <div class="contact__card">
-                            <img src="./sources/image.png" alt="">
-                            <div class="contact__card__text">
-                                <p>informacion</p>
-                                <p>informacion</p>
-                            </div>
-                        </div>
-                        <div class="contact__card">
-                            <img src="./sources/image.png" alt="">
-                            <div class="contact__card__text">
-                                <p>informacion</p>
-                                <p>informacion</p>
-                            </div>
-                        </div>
-                        <div class="contact__card">
-                            <img src="./sources/image.png" alt="">
-                            <div class="contact__card__text">
-                                <p>informacion</p>
-                                <p>informacion</p>
-                            </div>
+        <nav>
+            <div class="nav__left">
+                <img src="./sources/image.png" alt="">
+            </div>
+            <div class="nav__right">
+                <div class="nav__contact">
+                    <div class="contact__card">
+                        <img src="../sources/icons/home.svg" alt="">
+                        <div class="contact__card__text">
+                            <p>Ubicacion</p>
+                            <p>Calle 48 sur</p>
                         </div>
                     </div>
-                    <div class="nav__nav">
-                        <ul>
-                            <li><a href="">Nosotros</a></li>
-                            <li><a href="">Servicios</a></li>
-                            <li><a href="">Tienda</a></li>
-                            <li><a href="">Contacto</a></li>
-                        </ul>
+                    <div class="contact__card">
+                        <img src="./sources/icons/mail.svg" alt="">
+                        <div class="contact__card__text">
+                            <p>Correo</p>
+                            <p>prueba@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact__card">
+                        <img src="./sources/icons/schedule.svg" alt="">
+                        <div class="contact__card__text">
+                            <p>Horario</p>
+                            <p>Lun - Vie | 9am - 5pm</p>
+                        </div>
                     </div>
                 </div>
-            </nav>
+                <div class="nav__nav">
+                    <ul>
+                        <li><a href="./SobreNosotros/">Nosotros</a></li>
+                        <li><a href="./Servicios/">Servicios</a></li>
+                        <li><a href="./Tienda/">Tienda</a></li>
+                        <li><a href="./Contacto/">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-res" id="nav">
+            <p>Casa camionera</p>
+            <ul>
+                <li><a href="./SobreNosotros/">Nosotros</a></li>
+                <li><a href="./Servicios/">Servicios</a></li>
+                <li><a href="./Tienda/">Tienda</a></li>
+                <li><a href="./Contacto/">Contacto</a></li>
+            </ul>
+        </div>
 
         <div class="intro_page">
             <img src="./sources/truck.jpg" alt="">
@@ -54,13 +65,15 @@
                 <h3>Tus camiones</h3>
                 <h1>Nosotros te ayudamos</h1>
                 <p>Con los mejores especialistas en el manejo de vehiculos pesados</p>
-                <button>Contactanos</button>
+                <a href="https://www.wa.link/b1qplz"><button>Contactanos</button></a>
             </div>
         </div>
     </header>
     <section class="intro">
         <h2>Somos los mejores</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde beatae a alias fugit nemo necessitatibus blanditiis fuga officia nisi tempora in, voluptatum voluptatibus saepe illo dolore quod? Architecto, amet rem!</p>
+        <p>Elija nuestra empresa para sus necesidades de reparación de camiones y repuestos porque ofrecemos calidad,
+            experiencia y un equipo comprometido. Nuestra dedicación a la excelencia y precios competitivos hacen de
+            nosotros la elección ideal para mantener su flota en óptimas condiciones.</p>
     </section>
 
 
@@ -108,46 +121,54 @@
         <h2>Nuestros productos</h2>
 
         <div class="products__grid">
-            <div class="products__card">
-                <div class="products__card__image">
-                    <img src="./sources/truck.jpg" alt="">
-                    <div class="products__card__image-hover">
-                        <button>Ver</button>
+            <a href="Tienda/Producto">
+                <div class="products__card">
+                    <div class="products__card__image">
+                        <img src="./sources/truck.jpg" alt="">
+                        <div class="products__card__image-hover">
+                            <button>Ver</button>
+                        </div>
                     </div>
+                    <p>Nombre</p>
+                    <p>$54000</p>
                 </div>
-                <p>Nombre</p>
-                <p>$54000</p>
-            </div>
-            <div class="products__card">
-                <div class="products__card__image">
-                    <img src="./sources/truck.jpg" alt="">
-                    <div class="products__card__image-hover">
-                        <button>Ver</button>
+            </a>
+            <a href="Tienda/Producto">
+                <div class="products__card">
+                    <div class="products__card__image">
+                        <img src="./sources/truck.jpg" alt="">
+                        <div class="products__card__image-hover">
+                            <button>Ver</button>
+                        </div>
                     </div>
+                    <p>Nombre</p>
+                    <p>$54000</p>
                 </div>
-                <p>Nombre</p>
-                <p>$54000</p>
-            </div>
-            <div class="products__card">
-                <div class="products__card__image">
-                    <img src="./sources/truck.jpg" alt="">
-                    <div class="products__card__image-hover">
-                        <button>Ver</button>
+            </a>
+            <a href="Tienda/Producto">
+                <div class="products__card">
+                    <div class="products__card__image">
+                        <img src="./sources/truck.jpg" alt="">
+                        <div class="products__card__image-hover">
+                            <button>Ver</button>
+                        </div>
                     </div>
+                    <p>Nombre</p>
+                    <p>$54000</p>
                 </div>
-                <p>Nombre</p>
-                <p>$54000</p>
-            </div>
-            <div class="products__card">
-                <div class="products__card__image">
-                    <img src="./sources/truck.jpg" alt="">
-                    <div class="products__card__image-hover">
-                        <button>Ver</button>
+            </a>
+            <a href="Tienda/Producto">
+                <div class="products__card">
+                    <div class="products__card__image">
+                        <img src="./sources/truck.jpg" alt="">
+                        <div class="products__card__image-hover">
+                            <button>Ver</button>
+                        </div>
                     </div>
+                    <p>Nombre</p>
+                    <p>$54000</p>
                 </div>
-                <p>Nombre</p>
-                <p>$54000</p>
-            </div>
+            </a>
         </div>
 
     </section>
@@ -158,47 +179,47 @@
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
             <div class="works__card">
                 <img src="./sources/truck.jpg" alt="">
                 <div class="works__card-hover">
-                    <button>Ver</button>
+                    <a href="./Servicios/Nombre/"><button>Ver</button></a>
                     <p>Reparacion</p>
                 </div>
             </div>
         </div>
-        
+
 
 
     </section>
@@ -206,7 +227,7 @@
     <section class="invite">
         <div>
             <p>Habla con uno de nuestros expertos</p>
-            <button class="button-1">Contactanos</button>
+            <a href="https://www.wa.link/b1qplz"><button class="button-1">Contactanos</button></a>
         </div>
     </section>
 
@@ -273,7 +294,7 @@
                     <p>Cargo</p>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
@@ -286,7 +307,7 @@
                 </div>
                 <div class="clients__card--text--border"></div>
                 <div class="clients__card--text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo sapiente quaerat numquam at ab facilis tenetur dignissimos a omnis rerum, exercitationem cum suscipit voluptas. Voluptatibus nihil placeat nesciunt illo.</p>
+                    <p>La empresa de reparación de camiones y venta de repuestos es simplemente la mejor. Su atención al cliente es excepcional, y su equipo técnico resuelve cualquier problema con rapidez y eficiencia. Confío plenamente en ellos para mantener mi flota en excelente estado.</p>
                     <p><b>Manager</b>/ Juan Gonzales</p>
                 </div>
             </div>
@@ -296,7 +317,7 @@
                 </div>
                 <div class="clients__card--text--border"></div>
                 <div class="clients__card--text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo sapiente quaerat numquam at ab facilis tenetur dignissimos a omnis rerum, exercitationem cum suscipit voluptas. Voluptatibus nihil placeat nesciunt illo.</p>
+                    <p>He utilizado sus servicios de reparación y compra de repuestos varias veces y estoy satisfecho en su mayoría. El personal es profesional y amable. A veces, los tiempos de espera pueden ser un poco largos, pero en general, son una elección confiable para mantener mis camiones en funcionamiento</p>
                     <p><b>Manager</b>/ Juan Gonzales</p>
                 </div>
             </div>
@@ -307,7 +328,7 @@
         <h2>Contactanos</h2>
         <p>Luego nos pondremos en contacto contigo</p>
         <div class="contact__grid">
-            <input name="name" type="text"  placeholder="Nombre">
+            <input name="name" type="text" placeholder="Nombre">
             <input name="email" type="text" placeholder="Correo">
             <input name="phone" type="text" placeholder="Celular">
         </div>
@@ -318,21 +339,21 @@
         <div class="info__text">
             <h2>Contacto</h2>
             <div class="info_card">
-                <img src="./sources/truck.jpg" alt="">
+                <img src="./sources/icons/home.svg" alt="">
                 <div>
                     <p>Direccion</p>
-                    <p>asdasd</p>
+                    <p>Calle 48 sur</p>
                 </div>
             </div>
             <div class="info_card">
-                <img src="./sources/truck.jpg" alt="">
+                <img src="./sources/icons/phone.svg" alt="">
                 <div>
                     <p>Celular</p>
-                    <p>asdasd</p>
+                    <p>55525728</p>
                 </div>
             </div>
             <div class="info_card">
-                <img src="./sources/truck.jpg" alt="">
+                <img src="./sources/icons/mail.svg" alt="">
                 <div>
                     <p>Correo</p>
                     <p>asdasd</p>
@@ -343,7 +364,31 @@
 
 
     <section>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=parque sabaneta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections Unlimited</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {height:600px!important;}</style></div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                    marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=parque sabaneta&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                    href="https://connectionsgame.org/">Connections Unlimited</a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 600px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 600px;
+                }
+
+                .gmap_iframe {
+                    height: 600px !important;
+                }
+            </style>
+        </div>
     </section>
 
 
@@ -361,7 +406,8 @@
     <footer>
         <div class="footer__left">
             <img src="./sources/image.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio dolor itaque dolore quas dolorum, earum quo aut tempora possimus ab ipsam, odit sequi est non quos quidem, illum molestiae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure optio dolor itaque dolore quas dolorum,
+                earum quo aut tempora possimus ab ipsam, odit sequi est non quos quidem, illum molestiae.</p>
             <div>
                 <p>Siguenos en:</p>
                 <img src="./sources/truck.jpg" alt="">
@@ -373,22 +419,22 @@
         <div class="footer__center">
             <h3>Servicios</h3>
             <ul>
-                <li><a href="">>> Servicio 1</a></li>
-                <li><a href="">>> Servicio 2</a></li>
-                <li><a href="">>> Servicio 3</a></li>
-                <li><a href="">>> Servicio 4</a></li>
-                <li><a href="">>> Servicio 5</a></li>
+                <li><a href="./Servicios/Nombre/">>> Servicio 1</a></li>
+                <li><a href="./Servicios/Nombre/">>> Servicio 2</a></li>
+                <li><a href="./Servicios/Nombre/">>> Servicio 3</a></li>
+                <li><a href="./Servicios/Nombre/">>> Servicio 4</a></li>
+                <li><a href="./Servicios/Nombre/">>> Servicio 5</a></li>
             </ul>
         </div>
         <div class="footer__right">
             <h3>Contacto</h3>
             <div>
                 <p>Celular:</p>
-                <p>123123</p>
+                <p>55525728</p>
                 <p>Correo:</p>
-                <p>dasdasdas</p>
+                <p>prueba@gmail.com</p>
                 <p>Direccion:</p>
-                <p>asdasdas</p>
+                <p>Calle 48 sur</p>
             </div>
 
         </div>
@@ -402,6 +448,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"rel="stylesheet">
+<script type="text/javascript" src="./main.js?v=1"></script>
 
 </html>
